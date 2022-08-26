@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(169, 228, 248, 0.63));
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6%;
+    height: 70vh;
+    width: 75vw;
+    background-color: beige;
+    border: 1px solid black;;
+    border-radius: 3px;
+}
+
+.voto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 40vw;
+    border: 3px solid black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px;
+    background-color: white;
+}
+
+.urna {
+    height: 60vh;
+    width: 30vw;
+    border: 3px solid black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+h4 {
+    opacity: 0.6;
+    margin-bottom: 3%;
+}
+
+h3 {
+    font-size: 160%;
+    margin-top: 30px;
+}
+
+h2 {
+    max-width: 100%;
+    margin-left: 10%;
+    font-size: 220%;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 140%;
+}
+
+.numeroVoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    width: 50%;
+    height: 10%;
+}
+
+.number {
+    width: 10%;
+    height: 80%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.infosVoto {
+    display: flex;
+    justify-content: space-between;
+    height: 35%;
+    width: 95%;
+    margin-top: 3%;
+}
+
+.nomePartido {
+    margin-left: 5%;
+    width: 60%;
+}
+
+.foto {
+    width: 30%;
+}
+
+.imagemCandidato {
+    margin: 5px;
+    max-width: 100%;
+    height: 90%;
+    width: 80%;
+    object-fit: contain;
+    object-fit: cover;
+    border-radius: 15px; 
+    box-shadow: 3px 3px 3px rgba(34, 33, 33, 0.767);
+}
+
+.infoButton {
+    margin-top: 2%;
+    margin-left: -30%;
+}
+
+.imagemJE {
+    margin: 5px;
+    max-width: 100%;
+    height: 80%;
+    width: 20%;
+    
+}
+
+.navTec {
+    display: flex;
+    align-items: center;
+    
+    height: 25%;
+}
+
+.mainTeclado {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(12, 11, 11, 0.781);
+    border-radius: 1px; 
+}
+
+.teclado {
+    margin-top: 3%;
+    padding-left: 6%;
+    width: 65%;
+    height: 90%;
+}
+
+.num {
+    color: white;
+    height: 15%;
+    width: 25%;
+    margin: 2%;
+    box-shadow: 3px 3px 3px rgba(104, 103, 103, 0.801);
+    border-radius: 5px; 
+    background-color: rgba(12, 11, 11, 0.781)
+}
+
+.num:hover {
+    opacity: 0.8;
+}
+
+.num0:hover {
+    opacity: 0.8;
+}
+
+.num0 {
+    color: white;
+    height: 15%;
+    width: 25%;
+    margin: 2%;
+    margin-left: 33%;
+    box-shadow: 3px 3px 3px rgba(104, 103, 103, 0.801);
+    border-radius: 5px; 
+    background-color: rgba(12, 11, 11, 0.781)
+}
+
+.confirm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -7%;
+    margin-top: 7%;
+    height: 20%;
+}
+
+.branco {
+    font-size: 2.5vh;
+    width: 30%;
+    height: 65%;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px rgba(104, 103, 103, 0.801);
+}
+
+.branco:hover {
+    opacity: 0.8;
+}
+
+.corrigir {
+    font-size: 2.5vh;
+    width: 30%;
+    height: 65%;
+    background-color: rgb(255, 145, 19);
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px rgba(104, 103, 103, 0.801);
+}
+
+.corrigir:hover {
+    opacity: 0.8;
+}
+
+.confirmar{
+    font-size: 2.5vh;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px rgba(104, 103, 103, 0.801);
+}
+
+.linkConfirmar {
+    width: 30%;
+    height: 90%;
+}
+
+.confirmar:hover {
+    opacity: 0.8;
+}
+
+.FIM {
+    font-size: 6vw;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

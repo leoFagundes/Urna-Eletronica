@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <section class="voto">
+            <h4>Tribunal Superior Eleitoral</h4>
+            <h2>Seu voto para: </h2>
+            <h1>VEREADOR(A)</h1>
+            <div class="numeroVoto">
+                <input id="voto1" class="number" type=”number” maxlength="1">
+                <input id="voto2" class="number" type=”number” maxlength="1">
+                <input id="voto3" class="number" type=”number” maxlength="1">
+                <input id="voto4" class="number" type=”number” maxlength="1">
+                <input id="voto5" class="number" type=”number” maxlength="1">
+            </div>
+            <div class="infosVoto">
+                <div class="nomePartido">
+                    <h3 id="nomeVereador">Nome: </h3>
+                    <h3 id="nomePartido">Partido: </h3>
+                </div>
+                <div class="foto">
+                    <img id="imagemCandidato" class="imagemCandidato" src="./imagens/imagemPerfil.jpg" alt="Candidato"/>
+                </div>
+            </div>
+            <hr SIZE=1 WIDTH=84.8%>
+            <div class="infoButton">
+                <p>BRANCO - votar em branco</p>
+                <p>LARANJA - reiniciar o voto</p>
+                <p>VERDE - confirmar o voto</p>
+            </div>
+        </section>
+        <section class="urna">
+            <div class="navTec">
+                <img class="imagemJE" src="./imagens/JE.jpg" alt="JustiçaEleitoral">
+                <h2><i>Justiça Eleitoral</i></h3>
+            </div>
+            <hr WIDTH=99%>
+            <div class="mainTeclado">
+                <div class="teclado">
+                    <button value="1" id="num1" class="num">1</button>
+                    <button value="2" id="num2" class="num">2</button>
+                    <button value="3" id="num3" class="num">3</button>
+                    <button value="4" id="num4" class="num">4</button>
+                    <button value="5" id="num5" class="num">5</button>
+                    <button value="6" id="num6" class="num">6</button>
+                    <button value="7" id="num7" class="num">7</button>
+                    <button value="8" id="num8" class="num">8</button>
+                    <button value="9" value="1" id="num9" class="num">9</button>
+                    <button value="0" id="num0" class="num0">0</button>
+                    <div class="confirm">
+                        <button onclick="emBranco()" class="branco">Branco</button>
+                        <button id="corrigir" class="corrigir">Corrigir</button>
+                        <a class="linkConfirmar" href="votoPresidente.html"><button class="confirmar">Confirmar</button></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+<script src="scriptV.js"></script>
+
+
