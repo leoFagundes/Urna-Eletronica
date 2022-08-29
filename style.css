@@ -60,8 +60,9 @@ h2 {
 
 p {
     margin-top: 5px;
-    font-size: 140%;
+    font-size: 1rem;
 }
+
 
 .numeroVoto {
     display: flex;
@@ -109,7 +110,6 @@ p {
 
 .infoButton {
     margin-top: 2%;
-    margin-left: -30%;
 }
 
 .imagemJE {
